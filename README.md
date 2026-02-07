@@ -1,6 +1,7 @@
 👩‍💻 Pooja Pote – GitHub Portfolio
 
-About Me:
+About Me
+
 Computer Engineering student passionate about Python development and data analytics. I enjoy building real-world projects and continuously improving my technical skills.
 
 🛠 Skills
