@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pooja Pote - Professional Portfolio</title>
+<style>
+body{
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    background:#f0f2f5;
+}
+header{
+    background:#0a192f;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+nav{
+    text-align:center;
+    padding:10px;
+    background:#112240;
+}
+nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:20px;
+}
+section{
+    background:white;
+    margin:15px 0;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+.skills span{
+    display:inline-block;
+    background:#0a192f;
+    color:white;
+    padding:8px 12px;
+    margin:5px;
+    border-radius:5px;
+}
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+    gap:15px;
+}
+.card{
+    border:1px solid #ddd;
+    padding:15px;
+    border-radius:10px;
+}
+.card img{
+    width:100%;
+    border-radius:8px;
+    margin-bottom:10px;
+}
+button{
+    padding:8px 12px;
+    background:#0a192f;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+.resume-btn{
+    margin-top:10px;
+}
+footer{
+    text-align:center;
+    background:#0a192f;
+    color:white;
+    padding:15px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Pooja Pote</h1>
+<p>Aspiring Data Analyst  |  Python  |  SQL  |  Power BI</p>
+<a href="Resume1.pdf" download>
+<button class="resume-btn">Download Resume</button>
+</a>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+<section id="about">
+<h2>About Me</h2>
+<p>I am a Computer Engineering student with a strong passion for Python development and data analytics. I have maintained consistent academic performance with an SGPA of 8.52 and gained practical industry exposure through internships and technical club activities. I am continuously learning and exploring new technologies through hands-on projects. I am eager to connect, collaborate on exciting opportunities, and grow as a professional in the tech industry.</p>
+</section>
+
+<section id="skills">
+<h2>Technical Skills</h2>
+<div class="skills">
+<span>Python</span>
+<span>SQL</span>
+<span>Power BI</span>
+<span>HTML</span>
+<span>CSS</span>
+<span>Data Analytics</span>
+<span>NLP Basics</span>
+<span>Problem Solving</span>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="projects">
+
+<div class="card">
+
+<h3>🚀 Resume Analysis Using ATS</h3>
+<p>This project is an automated resume screening tool.
+It extracts text from PDF and DOCX resumes using NLP techniques.
+Resumes are compared with job descriptions to calculate an ATS Score.
+Based on the score, candidates are ranked for shortlisting.
+The final results are exported in CSV format for recruiters.</p>
+
+<p>
+🎯 Outcome:
+This project simplifies resume shortlisting, reduces manual effort, and helps recruiters make faster, data-driven hiring decisions.</p>
+<img src="Resume analysis.PNG" alt="ATS Project Screenshot">
+
+<a href="https://github.com/Pooja-Pote18/Automatic-Resume-Analysis"><button>GitHub</button></a>
+</div>
+
+<div class="card">
+<h3>🚀 AI Healthcare & Fitness Advisor</h3>
+<p>This project analyzes user inputs like height, weight, and age.
+It calculates BMI to determine the user’s fitness level.
+Based on BMI, it suggests personalized diet and workout plans.
+The system helps users track and improve their health.
+It provides simple and practical fitness guidance.</p>
+<p>
+🎯 Outcome: The project helps users track their fitness, follow healthier habits, and make informed decisions about their well-being.</p>
+<img src="Healthcare_out.PNG" alt="Healthcare Project Screenshot">
+
+<a href="https://github.com/Pooja-Pote18/AI-Healthcare-Fitness"><button>GitHub</button></a>
+</div>
+
+<div class="card">
+
+<h3>🚀 Weather Forecast App</h3><br>
+<p>This is a web-based real-time weather application.
+It fetches live weather data using an API.
+Users can check temperature and weather conditions.
+The interface is simple and user-friendly.
+It demonstrates API integration and web development skills.</p>
+<p>
+🎯 Outcome: The project enables users to access accurate weather updates instantly and showcases practical implementation of API integration.</p>
+<img src="weather_output.PNG" alt="Weather App Screenshot">
+<a href="https://github.com/Pooja-Pote18/Weather-App"><button>GitHub</button></a>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p><b>GitHub:</b> <a href="https://github.com/Pooja-Pote18">github.com/Pooja-Pote18</a></p>
+<p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/pooja-pote-5a4526331/">linkedin.com/in/pooja-pote-5a4526331</a></p>
+</section>
+</div>
+
+<footer>
+<p>© 2026 Pooja Pote - Professional Portfolio</p>
+</footer>
+</body>
+</html>
