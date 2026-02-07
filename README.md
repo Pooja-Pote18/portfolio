@@ -8,7 +8,9 @@ Computer Engineering student passionate about Python development and data analyt
 
 Python | SQL | HTML | CSS | NLP | Data Analytics | 
 
+
 🚀 Projects
+
 🔹 Resume Analysis Using ATS
 
 Automated resume screening system using NLP techniques.
@@ -30,6 +32,7 @@ Displays temperature and weather conditions dynamically.
 GitHub: https://github.com/Pooja-Pote18
 
 LinkedIn: https://www.linkedin.com/in/pooja-pote-5a4526331
+
 
 
 ⭐ Thank You for Visiting My Profile!
