@@ -27,11 +27,13 @@ Real-time weather application using API integration.
 Displays temperature and weather conditions dynamically.
 
 
+
 📫 Connect With Me
 
 GitHub: https://github.com/Pooja-Pote18
 
 LinkedIn: https://www.linkedin.com/in/pooja-pote-5a4526331
+
 
 
  🌐 Portfolio- live at:
